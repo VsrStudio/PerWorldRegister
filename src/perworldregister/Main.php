@@ -2,6 +2,7 @@
 
 namespace perworldregister;
 
+use pocketmine\player\Player;
 use perworldregister\forms\RegisterForm;
 use perworldregister\forms\LoginForm;
 use pocketmine\plugin\PluginBase;
