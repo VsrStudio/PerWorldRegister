@@ -16,6 +16,9 @@ A PocketMine-MP plugin for managing player registration and login per world.
 3. Restart your PocketMine-MP server.
 
 ## Configuration
-1. Open the `Main.php` file to set the list of protected worlds.
-   ```php
-   private array $protectedWorlds = ["world1", "world2"];
+1. Open the `config.yml` file to set the list of protected worlds.
+   ```
+  protected-worlds:
+  - world1
+  - world2
+  
